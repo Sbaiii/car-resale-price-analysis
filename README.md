@@ -1,54 +1,49 @@
-# Car Resale Price Analysis 
+# Car Resale Price Analysis
 
-This project explores a **used car resale dataset** to understand the factors influencing resale values.  
-The analysis was conducted using **SAS Studio**, with a focus on **data preprocessing, exploratory data analysis (EDA), and data mining techniques**.
+A data analytics project exploring a **used car resale dataset** to uncover the key factors influencing vehicle resale values.  
+The analysis was conducted in **SAS Studio**, demonstrating **data preprocessing, exploratory data analysis (EDA), and data mining techniques**.
 
 ---
 
-## Project Structure
-car-resale-price-analysis/
-│── data/
-│   ├── car_resale_prices.csv          # Original dataset
-│   └── final_car_data_cleaned.csv     # Cleaned dataset after preprocessing
-│── scripts/
-│   ├── IDA.sas                        # Initial Data Analysis
-│   ├── EDA.sas                        # Exploratory Data Analysis
-│   ├── pre_eda.sas                    # Pre-EDA cleaning steps
-│   └── pre-processing-techniques.sas  # Data cleaning, transformation, and reduction
-└── README.md
+## Dataset
+- **Source:** Car Resale Prices dataset (CSV format)  
+- **Features:** mileage, engine power, fuel type, registration year, selling price, etc.  
+- **Objective:** Identify and analyze the main variables that impact resale pricing.  
 
 ---
 
 ## Objectives
-- Perform **Exploratory Data Analysis (EDA)** to identify trends in mileage, power, fuel type, registration year, and resale price.  
-- Apply **data cleaning, transformation, and reduction** techniques for better quality and accuracy.  
-- Research and document how **data mining methods (classification & regression)** can be applied to predict resale values.  
+- Perform **Exploratory Data Analysis (EDA)** to understand data distributions and patterns.  
+- Apply **data cleaning, transformation, and reduction** techniques.  
+- Use **SAS Studio procedures** (`PROC IMPORT`, `PROC CONTENTS`, `PROC SQL`, `PROC SORT`, etc.).  
+- Research and apply **data mining methods** (classification & regression).  
+- Document **insights and visualizations** to support decision-making.  
 
 ---
 
 ## Tech Stack
 - **Language:** SAS  
-- **Tools & Libraries:** SAS Studio, PROC SQL, PROC CONTENTS, PROC SORT, PROC IMPORT/EXPORT  
+- **Tools & Libraries:** SAS Studio, PROC SQL, PROC CONTENTS, PROC SORT, PROC EXPORT  
 - **Environment:** APU SAS OnDemand  
 
 ---
 
 ## Key Insights
-- Cars with higher mileage show significant price depreciation.  
+- **Older cars with higher mileage** show steep price depreciation.  
 - **Engine power** and **fuel type** are strong predictors of resale value.  
-- Preprocessing (cleaning missing values, handling outliers, transforming attributes) improved dataset reliability.  
+- **Data cleaning & transformation** improved dataset reliability by handling missing values and outliers.  
 
 ---
 
 ## Future Work
-- Implement predictive models in **Python/R** for comparison with SAS outputs.  
-- Expand dataset with regional and brand-based segmentation.  
-- Automate preprocessing into a reproducible pipeline.  
+- Implement **predictive models** using regression and machine learning (Python or R).  
+- Compare **resale price trends across regions and brands**.  
+- Automate **data preprocessing pipeline** for reproducibility.  
 
 ---
 
 ## Author
 **Abdellah Sbai**  
 - BSc (Hons) Computer Science (Data Analytics) – Asia Pacific University  
-- LinkedIn: [linkedin.com/in/abdellahsbai](https://www.linkedin.com/in/abdellahsbai)  
-- GitHub: [github.com/Sbaiii](https://github.com/Sbaiii)  
+- [LinkedIn](https://www.linkedin.com/in/abdellahsbai)  
+- [GitHub](https://github.com/Sbaiii)  
